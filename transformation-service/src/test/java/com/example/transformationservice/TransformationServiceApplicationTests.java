@@ -1,10 +1,10 @@
-package com.example.walmart.tranformationservice;
+package com.example.transformationservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TranformationServiceApplicationTests {
+class TransformationServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

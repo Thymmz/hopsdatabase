@@ -1,13 +1,13 @@
-package com.example.walmart.tranformationservice;
+package com.example.transformationservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TranformationServiceApplication {
+public class TransformationServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TranformationServiceApplication.class, args);
+		SpringApplication.run(TransformationServiceApplication.class, args);
 	}
 
 }
