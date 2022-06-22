@@ -1,0 +1,10 @@
+[{"intid":"I0001","intcc":"US","intinst":1:{"intserid":"1001","hopsequence":"1111","hoplink":"0","hopname":"ENTRY","hopdest":"TRANS.IN"},
+{"intid":"I0001","intcc":"US","intinst":1,"intserid":"1001","hopsequence":"1112","hoplink":"1A","hopname":"TRANS","hopdest":"EXIT.IN","hopservice":"MAP","hometa":"XSLT_PATH1"},
+{"intid":"I0001","intcc":"US","intinst":1,"intserid":"1001","hopsequence":"1113","hoplink":"1B","hopname":"TRANS","hopdest":"EXIT.IN","hopservice":"MAP","hometa":"XSLT_PATH2"},
+{"intid":"I0001","intcc":"US","intinst":1,"intserid":"1002","hopsequence":"1114","hoplink":"2a","hopname":"EXIT","hopdest":"I0001.EXIT.1.OUT"},
+{"intid":"I0001","intcc":"US","intinst":1,"intserid":"1002","hopsequence":"1115","hoplink":"2B","hopname":"EXIT","hopdest":"I0001.EXIT.2.OUT"}]
+
+{"intid":"I0001","intcc":"US","intinst":1,
+  "intserid":"1001",
+  	"hopsequence":"1111","hoplink":"0","hopname":"ENTRY","hopdest":"TRANS.IN"}
+	"hopsequence":"1112","hoplink":"1A","hopname":"TRANS","hopdest":"EXIT.IN","hopservice":"MAP","hometa":"XSLT_PATH1"         

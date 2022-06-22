@@ -1,0 +1,5 @@
+Requirements:
+1. Read csv file from file system - location part of property file
+2. Write csv file - each row is 1 message in queue 
+3. Write a listener for the queue, read each message and post it as a row in database
+4. Api where get specfic person by id/ persons
