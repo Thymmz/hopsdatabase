@@ -13,8 +13,11 @@ public class DestProcessor implements Processor {
         JSONObject currHopObj = new JSONObject(currHopStr);
         String destinationPreProcessing = (String) currHopObj.get("hopdest");
         String destination = destinationPreProcessing.substring(0, destinationPreProcessing.lastIndexOf("."));
-        String hopmeta = currHopObj.getString("hopmeta");
+        if(!currHopObj.isNull("hopmeta")){
+            String hopmeta = currHopObj.getString("hopmeta");
+            exchange.getIn().setHeader("hopmeta", hopmeta);
+        }
         exchange.getIn().setHeader("destination", destination);
-        exchange.getIn().setHeader("hopmeta", hopmeta);
+
     }
 }

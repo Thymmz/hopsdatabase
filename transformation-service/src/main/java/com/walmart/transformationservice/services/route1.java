@@ -19,6 +19,7 @@ public class route1 extends RouteBuilder {
     public void configure() throws Exception {
         from("mq:queue:TRANS")
                 .process(transHeaderProcessor)
-                .process(destProcessor);
+                .process(destProcessor)
+                .toD("mq:queue:${headers.destination}");
     }
 }
