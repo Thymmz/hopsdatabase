@@ -21,7 +21,7 @@ public class ExitRoute extends RouteBuilder {
         from("mq:queue:EXIT")
                 .process(exitHeaderProcessor)
                 .process(destProcessor)
-                //.log("${headers.destination}");
+                .log("${headers.destination}")
                 .toD("mq:queue:${headers.destination}");
     }
 }
