@@ -71,8 +71,9 @@ public class MessageListener {
                 Message message1 = session.createTextMessage(message.getBody(String.class));
                 headerObject.keySet().forEach(keyval -> {
                     try {
-                        message1.setStringProperty(String.valueOf(keyval), String.valueOf(headerObject.getJSONObject(keyval)));
+                        message1.setStringProperty("hop_"+String.valueOf(keyval), String.valueOf(headerObject.getJSONObject(keyval)));
                     } catch (JMSException e) {
+                        e.printStackTrace();
                     }
                 });
             return message1;}
