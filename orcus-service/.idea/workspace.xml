@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ad89e71-7faa-4f78-9f98-6ef4c899df86" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../transformation-service/mqjms.log.0" beforeDir="false" afterPath="$PROJECT_DIR$/../transformation-service/mqjms.log.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transformation-service/src/main/java/com/walmart/transformationservice/TransformationServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../transformation-service/src/main/java/com/walmart/transformationservice/TransformationServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transformation-service/src/main/java/com/walmart/transformationservice/services/ExitRoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/../transformation-service/src/main/java/com/walmart/transformationservice/services/ExitRoute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transformation-service/src/main/java/com/walmart/transformationservice/services/OrcusRoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/../transformation-service/src/main/java/com/walmart/transformationservice/services/OrcusRoute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transformation-service/src/main/java/com/walmart/transformationservice/services/route1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../transformation-service/src/main/java/com/walmart/transformationservice/services/TransRoute.java" afterDir="false" />
-    </list>
+    <list default="true" id="9ad89e71-7faa-4f78-9f98-6ef4c899df86" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

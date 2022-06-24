@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement
 public class JmsConfiguration {
     private static final Logger LOG = LoggerFactory.getLogger(JmsConfiguration.class);
-    private String host = "169.60.46.60";
+    private String host = "52.116.224.102";
     private int port = 1414;
     private String queueManager = "mq";
     private String channel = "DEV.ADMIN.SVRCONN";

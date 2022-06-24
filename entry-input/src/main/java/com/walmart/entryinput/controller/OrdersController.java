@@ -30,7 +30,6 @@ public class OrdersController {
                 textMessage.setStringProperty("INT_CC", headers.get("int_cc"));
                 textMessage.setStringProperty("INT_INST", headers.get("int_inst"));
                 System.out.println(textMessage);
-                //System.out.println(headers);
                 return textMessage;
             }
         });
